@@ -29,5 +29,11 @@
     <p>Ne pare rău, pagina pe care o cauți nu există sau a fost mutată.</p>
     <a href="/">Înapoi la pagina principală</a>
   </div>
+<script>
+(function() {
+  var yr = new Date().getFullYear().toString();
+  document.querySelectorAll('.js-current-year').forEach(function(el) { el.textContent = yr; });
+})();
+</script>
 </body>
 </html>

@@ -1,5 +1,0 @@
-User-Agent: *
-Disallow: /wp-admin/
-Disallow: /readme.html
- 
-Sitemap: https://www.gianinadan.ro/sitemap_index.xml
